@@ -4,12 +4,13 @@ import React, { Component } from 'react';
 import { Link } from "react-router";
 import lang from '../../../common/lang';
 
-import HamburgerIcon from '../../../assets/icons/Hamburger.svg';
-import DashboardIcon from '../../../assets/icons/Dashboard.svg';
-import MaintenanceIcon from '../../../assets/icons/MaintenanceIcon.svg';
-import DevicesIcon from '../../../assets/icons/Devices.svg';
-import RulesIcon from '../../../assets/icons/RulesIcon.svg';
+import HamburgerIcon from '../../../assets/icons/Hamburger2.png';
+import DashboardIcon from '../../../assets/icons/Dashboard2.png';
+import MaintenanceIcon from '../../../assets/icons/MaintenanceIcon2.png';
+import DevicesIcon from '../../../assets/icons/Devices2.png';
+import RulesIcon from '../../../assets/icons/RulesIcon2.png';
 import ContosoIcon from '../../../assets/icons/Contoso.svg';
+import MDCLogo from '../../../assets/icons/med-device-connect.png'
 
 import './leftNav.css';
 
@@ -43,7 +44,7 @@ class LeftNav extends Component {
 
         <div className="leftnav-item-container">
           <div className="leftnav-item-icon">
-            <img src={ContosoIcon} className="page-title-icon" alt="ContosoIcon" />
+            <img src={MDCLogo} className="page-title-icon" alt="MDCLogo" />
           </div>
           <div className="leftnav-item-text">{lang.CONTOSO}</div>
         </div>

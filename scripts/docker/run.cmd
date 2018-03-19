@@ -5,7 +5,7 @@
 :: scripts\docker\run testing : Starts the testing version
 
 :: Note: use lowercase names for the Docker images
-SET DOCKER_IMAGE=azureiotpcs/pcs-remote-monitoring-webui
+SET DOCKER_IMAGE=bnorman3/med-device-connect-ui
 SET STABLE_VERSION=1.0.0-preview
 
 IF "%1"=="" goto :STABLE
