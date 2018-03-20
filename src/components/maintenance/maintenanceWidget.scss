@@ -3,8 +3,9 @@
 @import '../../styles/variables/colors';
 
 .maintenance-container {
-  color: $lightestGray;
+  color: black;
   height: 100%;
+
 
   .selection-bar {
     display: flex;
@@ -18,14 +19,14 @@
 
       &:hover {
         cursor: pointer;
-        color: $white;
+        color: red;
       }
     }
 
     .selection-item-active {
       @extend .selection-item;
-      border-bottom: 4px solid $white;
-      color: $white;
+      border-bottom: 4px solid red;
+      color: #ffffff;
     }
   }
 

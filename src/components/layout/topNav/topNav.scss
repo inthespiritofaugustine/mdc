@@ -1,15 +1,16 @@
 // Copyright (c) Microsoft. All rights reserved.
 
 $navHeight: 49px;
-$topNavColor: #afb9c3;
+$topNavColor: black;
 $borderColor: #454A4E;
 
 .top-nav {
   height: $navHeight;
-  background-color: #121416;
+  background-color: #ffffff;
   display: flex;
   flex-flow: row nowrap;
   border-bottom: 1px solid $borderColor;
+ //border-left: 1px solid black;
   flex-shrink: 0;
 
   .breadcrumbs { 

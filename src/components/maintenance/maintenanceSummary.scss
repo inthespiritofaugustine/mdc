@@ -4,7 +4,7 @@
 @import '../../styles/fonts/font-variables.scss';
 
 .summary-container {
-  color: $lightestGray;
+  color: black;
 
   .summary-header {
     font-weight: bold;
@@ -28,12 +28,12 @@
       padding-right: 8px;
       font-family: $fontSelawikSemilight;
       margin-top: -16px;
-      color: $white;
+      color: black;
     }
 
     .score-label {
       width: 60px;
-      color: $lightestGray;
+      color: black;
     }
 
     .score-board {
@@ -55,14 +55,14 @@
           .alarm-count,
           .job-count {
             font-size: 16px;
-            color: $white;
+            color: black;
             font-weight: bold;
           }
 
           .alarm-text,
           .job-text {
             font-size: 14px;
-            color: $lightestGray;
+            color: black;
             padding-left: 5px;
           }
         }
@@ -73,12 +73,12 @@
 
     .alarm-score-board {
       @extend .score-board;
-      color: $white;
+      color:black;
     }
 
     .system-score-board {
       @extend .score-board;
-      color: $white;
+      color: black;
     }
   }
 }

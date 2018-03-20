@@ -7,6 +7,7 @@
   justify-content: flex-end;
   margin-top: 13px;
   margin-right: 10px;
+  color: black;
 
   .Select-control { margin-top: 10px; }
 
@@ -32,7 +33,7 @@
   .last-refreshed-text {
     margin-left: 10px;
     margin-right: 6px;
-    color: $lightestGray;
+    color: #12c2e9;
   }
 
   .time-icon {
@@ -45,12 +46,14 @@
     background: url("../../../assets/icons/Refresh.svg") no-repeat center;
     background-size: contain;
     cursor: pointer;
+    color: #f30617;
   }
 
   .icon-sm {
     width: 14px;
     height: 14px;
     margin-left: 2px;
+    color: #f30617;
   }
 
 }

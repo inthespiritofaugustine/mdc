@@ -9,6 +9,7 @@
   .timerange-selection {
     display: flex;
     justify-content: flex-end;
+    color: black;
 
     .Select {
       width: 150px;
@@ -18,7 +19,7 @@
     .last-refresed-time {
       margin-left: 5px;
       margin-right: 5px;
-      color: $white;
+      color: black;
     }
 
     .refresh-icon {
@@ -33,7 +34,7 @@
   }
 
   .section-header {
-    color: $white;
+    color: black;
     margin-bottom: 10px;
     margin-top: 10px;
   }
@@ -88,7 +89,7 @@
 
       &:hover {
         cursor: pointer;
-        color: #fff;
+        color: red;
       }
     }
 

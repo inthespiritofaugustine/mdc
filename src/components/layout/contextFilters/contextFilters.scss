@@ -8,6 +8,7 @@
   height: 49px;
   border-bottom: 1px solid $borderColor;
   flex-shrink: 0;
+  background: black;
 
   .device-group-filter {
     display: flex;
@@ -170,7 +171,7 @@
 }
 
 .Select-arrow {
-  border-color: #999 transparent transparent;
+  border-color: #fff transparent transparent;
   border-style: solid;
   border-width: 5px 5px 2.5px;
   display: inline-block;
@@ -182,7 +183,7 @@
 }
 
 .is-open .Select-arrow,
-.Select-arrow-zone:hover > .Select-arrow { border-top-color: #666; }
+.Select-arrow-zone:hover > .Select-arrow { border-top-color: #f30617; }
 
 .Select-menu-outer {
   background-color: $bgBlack;
@@ -242,7 +243,7 @@
 
 .Select-noresults {
   box-sizing: border-box;
-  color: #999;
+  color: #f30617;
   cursor: default;
   display: block;
   padding: 8px 10px;
